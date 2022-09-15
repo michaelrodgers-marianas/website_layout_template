@@ -1,0 +1,134 @@
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, main, img, li, 
+nav, section, ul, span, ol, p {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+nav ul {
+    list-style: none;
+    list-style-image: none;
+}
+nav a {
+    text-decoration: none;
+}
+html {
+    height: 100%;
+}
+body {
+    line-height: 1;
+    width: 95%;
+    min-width: 640px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+}
+body > header > img {
+    display: block;
+    width: 100%;
+}
+body > header {
+    height: 50%; 
+}
+div {
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+}
+h1 {
+    font-size: 1.4em;
+    line-height: 2em;
+}
+body > header > nav li {
+    width: 10%; 
+    background-color: black;
+}
+header > nav a {
+    width: 100%;
+    color: white;
+    padding: 5px; 
+}
+nav.upper-menu li {
+    display: block;
+    float: left;
+    
+}
+body {
+    color: rgb(50,50,50);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body > main {
+    display: block;
+    clear: left;
+    margin-top: 25px;
+}
+main > nav.lower-menu {
+   display: block;
+    float: left;
+    width: 20%;
+    margin-right: 25px;
+    margin-top: 10px; 
+}
+main > nav h2 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+main > nav.lower-menu li {
+    padding-top: 10px;
+}
+main > nav.lower-menu li a{
+    color: rgb(129, 129, 129);
+}
+main > article {
+    display: block;
+    float: left;
+    width: 50%;
+    margin-right: 25px;
+}
+body article img {
+    float: right;
+    width: 40%;
+    margin: 0px 0 10px 10px;
+}
+p {
+    display: block;
+}
+main > aside {
+    display: block;
+    float: left;
+    width: 20%;
+    
+}
+main > aside a {
+    text-decoration: none;
+    color: rgb(80, 65, 2);
+}
+aside blockquote a:hover{
+    text-decoration: dotted;
+}
+aside a h4 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: rgb(109, 109, 109);
+}
+body > footer {
+    display: block;
+    clear: left;
+    width: 100%;
+} 
+body > footer > div {
+    display: block;
+    float: left;
+    width: 30%;
+    height: 100%;
+    padding:10px;
+    background-color: black;
+    color: silver;
+}
+footer > a {
+    text-decoration: none;
+
+}
